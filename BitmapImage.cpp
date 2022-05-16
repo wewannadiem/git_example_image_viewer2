@@ -21,5 +21,17 @@ BitmapImage::~BitmapImage() {
 
 bool BitmapImage::save() {
     //... save file...
+    bool res = false;
+    //...
+    if (res)
+        resize(width / 2, height / 2);
+    //...
     return true;
+}
+
+bool BitmapImage::resize(int width, int height) {
+    this->width = width;
+    this->height = height;
+    //resize image...
+    return false;
 }
