@@ -8,6 +8,6 @@
 
 #include <string>
 
-static const std::string VERSION = "First";
+static const std::string VERSION = "v1.1";
 
 #endif //GIT_EXAMPLE_IMAGE_VIEWER_VERSION_H
